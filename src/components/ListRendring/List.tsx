@@ -1,12 +1,6 @@
 import { useEffect, useState } from "react";
 
 export function List() {
-  const products = [
-    { title: "Cabbage", id: 1 },
-    { title: "Garlic", id: 3 },
-    { title: "Apple", id: 5 },
-  ];
-
   const [data, setData] = useState([]);
 
   useEffect(() => {

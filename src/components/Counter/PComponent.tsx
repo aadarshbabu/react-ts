@@ -1,5 +1,3 @@
-import React from "react";
-
 export function PComponent({ message }: { message: string }) {
   return <div>{message}</div>;
 }
