@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export function List() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState<{ id: string; title: string }[]>([]);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
