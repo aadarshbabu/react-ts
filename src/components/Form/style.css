@@ -1,0 +1,20 @@
+#form {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  margin: 10px auto;
+}
+
+.inputsEle {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#buttom {
+  padding: 8px 9px;
+  color: green;
+  margin: 10px 0px;
+}
